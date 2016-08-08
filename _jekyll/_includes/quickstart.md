@@ -57,7 +57,7 @@ We've just inserted two rows into the `tv_shows` table. Let's verify the
 number of rows inserted:
 
 ```javascript
-r.table('tv_shows').count()
+r.table('tv_shows').count().run()
 ```
 
 Finally, let's do a slightly more sophisticated query. Let's find all
